@@ -1,0 +1,19 @@
+Importer la bd via le fch "gomamosa.sql"
+Modifier les informations de connexion à la bd dans "modules/connexionBase.php"
+
+
+
+@TODO
+
+# action_afficherFormAjout
+	Résoudre problème ajout
+
+# action_afficherMonSuivi 
+	action Modifier à intégrer
+	Css commentaire meme page
+# action_afficherSuiviPromoHebdoResp
+	case à cocher
+	V si le stage est validé
+
+#action_afficherSuiviUnEtudiantResp
+	Mettre en place les graphiques

@@ -1,0 +1,391 @@
+/*             Header             */
+body{
+    font-family:calibri;
+
+}
+
+#bloc_haut{
+    position:absolute;
+    width:80%;
+    height:25%;   
+    border : solid 2px;
+    border-radius: 8px;
+    font-family:calibri;
+    margin-left: 10%;
+}
+
+#bloc_haut {
+    /* Anciens navigateurs */
+    background: lightskyblue url("bloc_haut-bg.png") repeat-x top;
+    -o-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+    /* Navigateurs récents */
+    background: -webkit-gradient(
+        linear,
+        left top, left bottom,
+        from(slateblue),
+        to(lightskyblue)
+        );
+    background: -webkit-linear-gradient(
+        top,
+        slateblue,
+        lightskyblue
+        );
+    background: -moz-linear-gradient(
+        top,
+        slateblue,
+        lightskyblue
+        );
+    background: -o-linear-gradient(
+        top,
+        slateblue,
+        lightskyblue
+        );
+    background: linear-gradient(
+        top,
+        slateblue,
+        lightskyblue
+        );
+}
+
+#logo a{
+    color: black;
+    text-decoration: none;
+}
+
+#utilisateur a{
+    color: black;
+    text-decoration: none;
+}
+
+#logo {
+    position:absolute;
+    top:-9%;
+    left:3%;
+    font-family:LilyUPC,Arial;
+    font-size: 1.8em;
+    color: black;
+    text-decoration: none;
+    text-indent: 5%;
+    font-style:italic;	
+}
+
+
+
+#utilisateur {
+    position:relative;
+    top: 30%;
+    left:20%;
+    text-decoration: none;
+    font-family:Candara,LilyUPC,Arial;
+}
+
+#deconnexion{
+    position:absolute;
+    top:20%;
+    margin-left:82%;
+    text-align: right;
+    font-family:LilyUPC,Arial
+}
+
+#deconnexion a{
+    color: black;
+    text-decoration: none;
+    font-size: 140%;
+}
+#deconnexion a:hover{
+    font-size: 138%;
+}
+#nom{
+    position:absolute;
+    top:50%;
+    text-align: right;
+    margin-left:82%;
+    font-size: 120%;
+}
+
+
+
+/* ----------------- NAVIGATION -----------------*/
+
+nav
+{
+    position: absolute;
+    top:80%;
+    text-align: left;
+    width:100%;
+
+
+    ;
+}
+
+nav ul 
+{
+    list-style-type: none;
+    margin-top:0%;
+    text-decoration: none;
+
+}
+
+nav li {
+    display: inline-block;
+    border:solid black 0.2px;
+    border-radius:8%;
+    padding: 0.4%;
+    background:black;
+    text-decoration: none;
+
+}
+
+nav a
+{
+    font-size: 0.8em;
+    font-weight:bold;
+    padding-bottom: 3px;
+    text-decoration: none;
+    text-transform:uppercase;
+    font-family:Candara;
+    color:#FFFFFF;
+
+}
+
+nav li:hover
+{
+    background:#003333;
+
+
+}
+
+/*			Notification 			*/
+
+#bloc_notif{
+    position: absolute;
+    top:31%;
+    margin-left: 10%;
+    width:80%;
+    text-indent:2%;
+    font-family:Calibri,arial;
+    font-size: 0.8em;
+    padding:0.2%;
+    border-radius: 2%;
+    background-color: background: white url("nav-bg.png") repeat-x top;
+    -o-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+    background: -webkit-gradient(
+        linear,
+        left top, left bottom,
+        from(gainsboro),
+        to(white)
+        );
+    background: -webkit-linear-gradient(
+        top,
+        gainsboro,
+        white
+        );
+    background: -moz-linear-gradient(
+        top,
+        gainsboro,
+        white
+        );
+    background: -o-linear-gradient(
+        top,
+        gainsboro,
+        white
+        );
+    background: linear-gradient(
+        top,
+        gainsboro,
+        white
+        );
+    color: black;
+
+}
+
+/* ----------------- NAVIGATION -----------------*/
+
+nav
+{
+    position: absolute;
+    top:80%;
+    text-align: left;
+    width:100%;
+}
+
+nav ul 
+{
+    list-style-type: none;
+    margin-top:0%;
+    text-decoration: none;
+
+}
+
+nav li {
+    display: inline-block;
+    border:solid black 0.2px;
+    border-radius:8%;
+    padding: 0.4%;
+    background:black;
+    text-decoration: none;
+
+}
+
+nav a
+{
+    font-size: 0.8em;
+    font-weight:bold;
+    padding-bottom: 3px;
+    text-decoration: none;
+    text-transform:uppercase;
+    font-family:Candara;
+    color:#FFFFFF;
+
+}
+
+nav li:hover
+{
+    background:#003333;
+
+
+}
+
+/*			Notification 			*/
+
+#bloc_notif{
+    position: absolute;
+    top:31%;
+    text-indent:2%;
+    font-family:Calibri,arial;
+    font-size: 0.8em;
+    padding:0.2%;
+    border-radius: 2%;
+    margin-left: 10%;
+    width:80%;
+    background-color: background: white url("nav-bg.png") repeat-x top;
+    -o-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+    background: -webkit-gradient(
+        linear,
+        left top, left bottom,
+        from(gainsboro),
+        to(white)
+        );
+    background: -webkit-linear-gradient(
+        top,
+        gainsboro,
+        white
+        );
+    background: -moz-linear-gradient(
+        top,
+        gainsboro,
+        white
+        );
+    background: -o-linear-gradient(
+        top,
+        gainsboro,
+        white
+        );
+    background: linear-gradient(
+        top,
+        gainsboro,
+        white
+        );
+    color: black;
+
+}
+
+/*			 Bloc Principal  		*/
+
+
+#bloc_principal{
+    position:absolute;
+    background-color: #FFFFFF;
+    float: top;
+    top:36%;
+    width:80%;
+    margin-left: 10%;
+
+}
+p{
+    text-indent: 4%;
+}
+#formPromo{
+    position: absolute;
+    top: -10%;
+    margin-left: 25%;
+}
+h3{
+    padding-bottom: 2%;
+    text-align: center;
+}
+
+h4{
+    margin-top: 2%;
+    text-indent: 4%;
+}
+
+#formCom{
+    margin-left: 28%;
+    margin-top: 5%
+}
+
+.boutonRetour{
+     text-decoration: none;
+     position: absolute;
+    margin-left: 70%; 
+    padding-top: 2%;
+}
+.boutonVue{
+    text-decoration: none;
+    margin-left: 75%;
+}
+
+.boutonAjout{
+    text-decoration: none;
+    margin-left: 40%;
+}
+
+
+.boutonRetVueEnt{
+    text-decoration: none;
+
+}
+
+
+#infosEntreprise{
+    border:3px solid grey;
+    width: 50%;
+    margin: 5%;
+    margin-left:20%;
+    padding:1%;
+
+}
+
+#infosEntreprise h4{
+    text-align: center;
+
+}
+
+.content_table{
+    width:100%;
+}
+
+#table_jquery td{
+    text-align: center;
+}
+
+#checkbox{
+    position: absolute;
+    margin-left: 40%;
+}
+
+#tabHeure{
+    display:none;
+}
+
+
